@@ -35,6 +35,7 @@ message(
 )
 
 # Control build based on user input
+add_subdirectory(fortran)
 add_subdirectory(tudat)
 
 if (SKIP_TUDATPY)
